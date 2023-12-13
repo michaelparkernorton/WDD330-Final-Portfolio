@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: lightblue;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 500px;
+}
+
+.main-image {
+	width: 400px;
+}
+
+.logos {
+	display: flex;
+	justify-content: center;
+}
+
+.logos img, .logos svg {
+	height: 30px;
+	padding: 20px;
+}
