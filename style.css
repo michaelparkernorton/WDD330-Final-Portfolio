@@ -13,14 +13,27 @@ body {
 	background-color: lightblue;
 }
 
-h2 {
-	text-align: center;
-	line-height: 50px;
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+}
+
+h1, h2, h3 {
 	font-family: 'Bebas Neue', sans-serif;
 }
 
+h2 {
+	text-align: center;
+	line-height: 80px;
+	background-color: black;
+	color:#F5F5F5;
+}
+
 iframe {
-	margin: 50px;
+	margin-bottom: 50px;
 }
 
 
@@ -35,6 +48,8 @@ iframe {
 	flex-direction: column;
 	align-items: center;
 	width: 400px;
+	margin-bottom:100px;
+	border-radius: 10px;
 }
 
 .main-image {
@@ -43,10 +58,25 @@ iframe {
 
 .logos {
 	display: flex;
-	justify-content: center;
+	flex-direction: row-reverse;
+	align-items: center;
+	align-self: flex-end;
+	height: 80px;
+	margin-right: 10px;
 }
 
 .logos img, .logos svg {
+	background-color: #F5F5F5;
 	height: 30px;
-	padding: 20px;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #F5F5F5;
 }
